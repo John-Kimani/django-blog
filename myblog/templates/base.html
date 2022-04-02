@@ -1,4 +1,4 @@
-{% loads bootstrap4 %}
+{% load bootstrap4 %}
 
 
 <!DOCTYPE html>
@@ -13,12 +13,9 @@
     {% endblock %}
 </head>
 <body>
-    {% includes 'navbar.html' %}
+    {% include 'navbar.html' %}
 
     {% block content %}
-    <div class="container container fluid">
-
-    </div>
 
     {% endblock %}
 
